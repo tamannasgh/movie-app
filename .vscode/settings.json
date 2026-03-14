@@ -1,7 +1,12 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
-  }
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit",
+		"source.sortMembers": "explicit"
+	},
+	"tailwindCSS.experimental.configFile": "./tailwind.config.js",
+	"tailwindCSS.classAttributes": ["class", "className", "style"],
+	"editor.quickSuggestions": {
+		"strings": true
+	}
 }
